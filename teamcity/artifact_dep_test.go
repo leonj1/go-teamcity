@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/leonj1/go-teamcity/teamcity"
+	"github.com/leonj1/teamcity/teamcity"
 )
 
 func Test_ArtifactDependency_Invariants(t *testing.T) {

@@ -3,7 +3,7 @@ package teamcity_test
 import (
 	"testing"
 
-	"github.com/leonj1/go-teamcity/teamcity"
+	"github.com/leonj1/teamcity/teamcity"
 	"github.com/stretchr/testify/suite"
 )
 
