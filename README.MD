@@ -1,12 +1,12 @@
 # go-teamcity #
 
-[![GoDoc](https://godoc.org/github.com/cvbarros/go-teamcity/github?status.svg)](https://godoc.org/github.com/cvbarros/go-teamcity) [![Build Status](https://travis-ci.com/cvbarros/go-teamcity.svg?branch=master)](https://travis-ci.com/cvbarros/go-teamcity)
+[![GoDoc](https://godoc.org/github.com/leonj1/go-teamcity/github?status.svg)](https://godoc.org/github.com/leonj1/go-teamcity) [![Build Status](https://travis-ci.com/leonj1/go-teamcity.svg?branch=master)](https://travis-ci.com/leonj1/go-teamcity)
 
 
 ## LOOKING FOR MAINTAINTERS ##
 
 This project is in need of new maintainers, please see here:  
-https://github.com/cvbarros/go-teamcity/issues/94.  
+https://github.com/leonj1/go-teamcity/issues/94.  
 https://github.com/cvbarros/terraform-provider-teamcity/issues/113
 
 ---
@@ -20,7 +20,7 @@ It is also the client library used in [TeamCity Provider](https://github.com/cvb
 ## Usage ##
 
 ```go
-import teamcity "github.com/cvbarros/go-teamcity"
+import teamcity "github.com/leonj1/go-teamcity"
 ```
 
 Construct a new Teamcity client with a default `http.Client` for the server at the `TEAMCITY_ADDR` environment variable, then use the various services exposed by the client to use TeamCity API's features.
@@ -41,7 +41,7 @@ project,  err := client.Projects.GetById("myproject")
 
 ### Examples ###
 
-For now, [integration tests](https://github.com/cvbarros/go-teamcity/search?q=filename%3A*_test.go&unscoped_q=filename%3A*_test.go) are the best examples on how to use the library to interact with the several services.
+For now, [integration tests](https://github.com/leonj1/go-teamcity/search?q=filename%3A*_test.go&unscoped_q=filename%3A*_test.go) are the best examples on how to use the library to interact with the several services.
 
 ## Other Information ##
 

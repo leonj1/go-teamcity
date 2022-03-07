@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cvbarros/go-teamcity/teamcity"
+	"github.com/leonj1/go-teamcity/teamcity"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -13,7 +13,7 @@ func TestAgentPools_GetDefaultProject(t *testing.T) {
 	client := setup()
 	assert := assert.New(t)
 
-	// this is hard-coded in TeamCity so we may as well do the same
+	// this is hard-coded in TeamCity, so we may as well do the same
 	defaultAgentPoolId := 0
 
 	retrievedPool, err := client.AgentPools.GetByID(defaultAgentPoolId)

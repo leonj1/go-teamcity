@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cvbarros/go-teamcity/teamcity"
+	"github.com/leonj1/go-teamcity/teamcity"
 )
 
 type TestContext struct {
