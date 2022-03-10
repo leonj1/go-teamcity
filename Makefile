@@ -1,5 +1,5 @@
 # Project name.
-PROJECT_NAME = go-teamcity
+PROJECT_NAME = teamcity
 
 # Makefile parameters.
 TAG ?= $(shell git describe)
